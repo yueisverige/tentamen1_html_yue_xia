@@ -2,3 +2,53 @@ body {
     margin: 5px;
     padding: 0;
 }
+
+h1 {
+    font-size: 3em;
+    color: #0000ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    height: 30px;
+    background-color: red;
+    display:inline-block;
+    margin: 20px;
+}
+
+#team-table {
+    background-color: lightgrey;
+    width: 700px;
+    height: 500px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 30px;
+  }
+
+table {
+    border-spacing: 0px;
+  }
+
+#funny-element {
+    width: 200px;
+    height: 30px;
+    background-color: green;
+    position: absolute;
+    margin-top: 1800 px;
+    right: 0;
+    scroll-behavior: smooth;
+}  
+
+img {
+    margin: 10px;
+    border: 1px red solid;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 644px;
+}
+
